@@ -60,4 +60,5 @@ aggregate(data[,4:5], list(as.factor(data$continent)),
 # Comparaison avec les chiffres par continent fournis :
 data[nchar(data$iso_code) >= 4 & data$continent == "",3:5]
 
+#Bonjour bonjour
 
